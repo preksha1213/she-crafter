@@ -1,0 +1,70 @@
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #c6c5b9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #004643 ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+
+.navbar{
+    background-color: #0c1618;
+
+}
+
+.heading-index{
+    color: #2a9d8f;
+}
+.heading-content{
+    color: #432818;
+}
+.logo-img {
+    max-height: 140px;
+    }
+
+.card-titlecolor {
+ background-color: #004643;
+}
+
+.carousel {
+    background: #0c1618;
+}
+
+.carousel-item {
+    height: 300px;
+
+}
+
+.imgcarousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    min-height: 300px;
+}
