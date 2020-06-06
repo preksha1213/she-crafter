@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> 
+      <link href="css/styles.css" rel="stylesheet">
+    <title>Dashboard</title>
+
+    
+<script type="text/javascript">
+    window.onload = function () {
+        var chart = new CanvasJS.Chart("chartContainer",
+        {
+            title: {
+                text: "Chart with export feature enabled",
+            },
+            exportEnabled: true,
+            axisX:{
+                minimum: -900, 
+                interval: 100,
+            },
+            data: [
+            {
+                type: "area",
+                fillOpacity: .4,
+                lineThickness: 3,
+                dataPoints: [
+                    { x: -100, y: 71 },
+                    { x: -200, y: 55 },
+                    { x: -300, y: 50 },
+                    { x: -400, y: 65 },
+                    { x: -500, y: 105, markerType: "circle", markerSize: 9, markerColor: "brown", indexLabel: "Highest" },
+                    { x: -600, y: 68 },
+                    { x: -700, y: 28 },
+                    { x: -800, y: 34 },
+                    { x: -900, y: 14}
+                ]
+            }
+            ]
+        });
+        chart.render();
+    }
+    </script>
+
+
+
+</head>
+<body>
+    <header class="jumbotron">
+        <div class="container">
+           <div class="row row-header">
+               <div class="col-12 col-sm-6">
+                   <h1>She Crafter<br>- The Handmade gift shop</h1>
+                   <p>Handcrafted cards and gifts for every occassion. A company dedicated to modern and seamless gifting in order to create "stronger relationships through personal gifts." </p>
+               </div>
+               <div class="col-12 col-sm-3 col-md-3 align-self-center">
+                   <img class="image-fluid logo-img " src="img/SHE CRAFTER (1).png">
+
+               </div>
+               <div class="col-12 col-sm-3">
+                   
+                   
+               </div>
+           </div>
+       </div>
+   </header>
+   <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="./index.html"><img src="img/SHE CRAFTER (1).png" height=30 width=41 ></a>
+        
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+               
+                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-question-circle fa-lg"></span>Why we</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-gift fa-lg"></span>Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-commenting-o fa-lg"></span>Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+            
+        </div>
+    
+    </div>
+</nav>
+
+
+    <div class="row">
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-myaccount" role="tabpanel">
+                    <div class="container">
+                        <div class="row row content">
+                            <div class="col-7 order-sm-last">
+                                <br><br><h2>I'm a engineering student, who never left the hands of creativity.I Started this gift shop in 2013. Back then 
+                                I handled the creations of gifts all by myself. Now She crafter is a team of many crafters and everyday I'm inspired 
+                                by my team of women crafters.</h2>
+                                
+
+                            </div>
+                            <div class="col-5 order-sm-first">
+                                <div class="card" style="width: 20rem;">
+                                    <h3 class="card-header bg-dark text-white">Employee Details</h3>
+                                    <div class="view overlay">
+                                        <img class="card-img-top " max-height: 200px src="img/preksha.jpeg"
+                                          alt="Preksha">
+                                        
+                                          <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                      </div>
+                                    <div class="card-body">
+                                        <dl class="row">
+                                            <dt class="col-6">Started</dt>
+                                            <dd class="col-6">3 Feb. 2013</dd>
+                                            <dt class="col-6">Name</dt>
+                                            <dd class="col-6">Preksha Makhija</dd>
+                                            <dt class="col-6">Post</dt>
+                                            <dd class="col-6">Founder and CEO</dd>
+                                            <dt class="col-6">Employee ID</dt>
+                                            <dd class="col-6">17100SC</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="col-3">
+            <div class=" nav sidenav flex-column nav-pills"  id="v-nav-tab" role="tablist" aria-orientation="vertical">
+                <a href="#v-pills-myaccount" class="nav-link active" id="v-pills-myaccount-tab" data-toggle="pill" role="tab">My Account</a>
+                <a href="#" class="nav-link" id="v-pills-salary-tab" data-toggle="pill" role="tab">Salary</a>
+                <a href="#" class="nav-link" id="v-pills-holiday-tab" data-toggle="pill" role="tab">Due Holidays</a>
+                <a href="#" class="nav-link" id="v-pills-pending-tab" data-toggle="pill" role="tab">Pending tasks</a>
+                <a href="#" class="nav-link" id="v-pills-completed-tab" data-toggle="pill" role="tab">Completed tasks</a>
+            </div>
+        
+        </div>
+    </div>
+
+
+<br>
+    <div class="container" id="chartContainer" style="height: 370px; width: 50%;"></div>
+    
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">             
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gift gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Our Address</h5>
+                <address>
+                  120,Vishal Nagar<br>
+                  Annapurana road<br>
+                  Indore, MP<br>
+                  Tel.: +852 1234 5678<br>
+                  Fax: +852 8765 4321<br>
+                  Email: <a href="mailto:shecrafter@gmail.com">confusion@food.net</a>
+               </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </div>
+            </div>
+       </div>
+       <div class="row justify-content-center">             
+            <div class="col-auto">
+                <p>© Copyright 2018 She Crafter</p>
+            </div>
+       </div>
+    </div>
+    
+</footer>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
